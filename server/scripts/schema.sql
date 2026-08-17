@@ -1,0 +1,58 @@
+-- MySQL Database Schema for Dawit Tamirat Portfolio
+
+CREATE DATABASE IF NOT EXISTS dawit_portfolio;
+USE dawit_portfolio;
+
+-- Skills Table
+CREATE TABLE IF NOT EXISTS skills (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  category VARCHAR(100) NOT NULL,
+  name VARCHAR(100) NOT NULL,
+  icon VARCHAR(50) DEFAULT 'check',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Experiences Table
+CREATE TABLE IF NOT EXISTS experiences (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  role VARCHAR(150) NOT NULL,
+  company VARCHAR(150) NOT NULL,
+  year VARCHAR(50) NOT NULL,
+  description TEXT NOT NULL,
+  tags JSON NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Education Table
+CREATE TABLE IF NOT EXISTS education (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  degree VARCHAR(150) NOT NULL,
+  institution VARCHAR(150) NOT NULL,
+  year VARCHAR(50) NOT NULL,
+  highlights JSON NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Projects Table
+CREATE TABLE IF NOT EXISTS projects (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(150) NOT NULL,
+  subtitle VARCHAR(255) DEFAULT NULL,
+  promo_text VARCHAR(255) DEFAULT NULL,
+  description TEXT NOT NULL,
+  category VARCHAR(100) NOT NULL,
+  image VARCHAR(255) NOT NULL,
+  tags JSON NOT NULL,
+  live_url VARCHAR(255) DEFAULT '#',
+  github_url VARCHAR(255) DEFAULT '#',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Contacts Messages Table
+CREATE TABLE IF NOT EXISTS contacts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(150) NOT NULL,
+  message TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
