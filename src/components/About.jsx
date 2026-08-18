@@ -27,7 +27,6 @@ const About = () => {
             <h3 className="profile-name">Dawit Tamirat</h3>
 
             <div className="status-badge">
-              <span className="status-dot"></span>
               <span>Available for work</span>
             </div>
 
