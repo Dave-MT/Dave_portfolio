@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { submitContactForm } from '../services/api';
-import { Mail, MapPin, Send, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Mail, MapPin, Phone, Send, CheckCircle2, AlertCircle } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -115,11 +115,23 @@ const Contact = () => {
           <div className="contact-cards-column">
             <div className="info-card">
               <div className="info-icon-box">
+                <Phone size={20} />
+              </div>
+              <div className="info-details">
+                <span className="info-label">PHONE</span>
+                <a href="tel:0939754592" className="info-value">
+                  0939754592
+                </a>
+              </div>
+            </div>
+
+            <div className="info-card">
+              <div className="info-icon-box">
                 <Mail size={20} />
               </div>
               <div className="info-details">
                 <span className="info-label">EMAIL</span>
-                <a href="mailto:davedtm3664@gmail.com" className="info-value">
+                <a href="mailto:dawittamirat@gmail.com" className="info-value">
                   davedtm3664@gmail.com
                 </a>
               </div>
