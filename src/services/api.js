@@ -69,7 +69,7 @@ export const FALLBACK_PROJECTS = [
     title: "Brokers App",
     description: "Real estate broker management platform with property listings, filtering, and real-time client inquiry management.",
     category: "Full Stack",
-    image: "/brokers.png",
+    image: "/Brokers.png",
     tags: ["React", "Node.js", "MySQL"],
     live_url: "https://www.figma.com/design/KFUT7TW4gjA207e6QoPzVP/Broker_app?node-id=0-1&t=XJHfuE9bSLBukAIs-1",
     github_url: "#"
@@ -80,7 +80,7 @@ export const FALLBACK_PROJECTS = [
     subtitle: "Empowering Health Through Digital Precision",
     description: "Digital health precision tracking system for healthcare clinics and patients to record immunization records securely.",
     category: "Full Stack / Health",
-    image: "/vaccination.png",
+    image: "/Vaccination.png",
     tags: ["React", "MySQL", "Node.js", "UI/UX"],
     live_url: "https://www.figma.com/site/wyVKtRbRR33ppQ8oeL8ItM/Vacc_track?node-id=0-1&t=3dRyC9P69rLQLQoh-1",
     github_url: "https://github.com/Dave-MT/VaxClient"
@@ -90,7 +90,7 @@ export const FALLBACK_PROJECTS = [
     title: "Edu Connect Web",
     description: "Interactive educational web platform connecting students and educators for course materials, assignments, and analytics.",
     category: "EdTech",
-    image: "/educonnect.png",
+    image: "/Educonnect.png",
     tags: ["PHP", "MySQL"],
     live_url: "#",
     github_url: "https://github.com/Dave-MT/Website__educonect"
@@ -101,39 +101,39 @@ export const FALLBACK_PROJECTS = [
     promoText: "Get your Special Sale up to 40%",
     description: "Heritage Surface — an Ethiopian traditional clothing e-commerce app featuring product browsing, item details, wishlist, and a smooth shopping experience for Habesha fashion.",
     category: "E-Commerce",
-    image: "/ecommerce.png",
+    image: "/Eccomerce.png",
     tags: ["Figma", "UX/UI"],
     live_url: "https://www.figma.com/design/YsAso5hqidORHlHskT6HKE/Ecommerce?node-id=0-1&t=LvaVUPJSNAAB24DZ-1",
     github_url: "#"
   },
   {
-    id: 6,
+    id: 5,
     title: "Citizen_ID System Web",
     description: "Comprehensive Web application for issuing, registering, and validating citizen national identity verification data.",
     category: "GovTech / Security",
-    image: "/citizen.png",
+    image: "/Idsysystem.png",
     tags: ["Full Stack", "React", "Express.js", "MySQL"],
     live_url: "#",
     github_url: "https://github.com/mickeytw53-ops/citizen-id-system"
   },
   {
-    id: 7,
+    id: 6,
     title: "Yango New Design",
     subtitle: "Modern Ride-Hailing Reimagined",
     description: "A fresh new redesign of the Yango app — covering branding, navigation, trip flow improvements. Designed entirely in Figma with modern UI principles and accessibility in mind.",
     category: "UX/UI Design · Figma",
-    image: "/yango.png",
+    image: "/Yango.png",
     tags: ["Figma", "UX/UI", "Mobile Design"],
     live_url: "https://www.figma.com/design/X2pXGv2crK9BBzQBYXMMLq/Yango?node-id=0-1&t=intxtBo1x3ykpkIh-1",
     github_url: "#"
   },
   {
-    id: 8,
+    id: 7,
     title: "Personal Portfolio Design",
     subtitle: "Designing My Own Digital Identity",
     description: "Full design and development of a personal portfolio website — from wireframes and high-fidelity Figma prototypes to a fully responsive React web application showcasing projects, skills, and experience.",
     category: "UX/UI Design · Web",
-    image: "/portfolio-preview.png",
+    image: "/Portfolio.png",
     tags: ["Figma", "React", "UI/UX", "Web Design"],
     live_url: "https://www.figma.com/design/2aWahZPyrWpWOLG22Opjvq/My_Portfolio?node-id=39-476&t=XBbq68yiE1DbOKFn-1",
     github_url: "#"
