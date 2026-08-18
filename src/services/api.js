@@ -107,16 +107,6 @@ export const FALLBACK_PROJECTS = [
     github_url: "#"
   },
   {
-    id: 5,
-    title: "Sidama_ID Design",
-    description: "Custom digital identification card design system, layout guidelines, and regional administrative asset branding.",
-    category: "UI/UX Design",
-    image: "/sidama.png",
-    tags: ["Figma", "UI/UX"],
-    live_url: "https://www.figma.com/design/k04Q5Nyk0u5w7pWHYKnLE5/Sidam_ID?node-id=0-1&t=JByZUKuh49lp8x4L-1",
-    github_url: "#"
-  },
-  {
     id: 6,
     title: "Citizen_ID System Web",
     description: "Comprehensive Web application for issuing, registering, and validating citizen national identity verification data.",
