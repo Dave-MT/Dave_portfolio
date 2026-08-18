@@ -34,7 +34,6 @@ const Navbar = () => {
         {/* Brand Logo */}
         <a href="#home" className="nav-brand">
           <span className="brand-text">Dawit</span>
-          <span className="brand-dot"></span>
         </a>
 
         {/* Desktop Navigation Links */}

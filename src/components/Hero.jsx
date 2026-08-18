@@ -8,10 +8,9 @@ const Hero = () => {
           <h1 className="hero-title">
             I'M <span className="highlight-name">DAWIT</span> TAMIRAT
           </h1>
-          
+
           <div className="hero-pills-container">
             <span className="hero-pill">UI/UX Designer</span>
-            <span className="pill-divider">•</span>
             <span className="hero-pill">Full-Stack Developer</span>
           </div>
         </div>

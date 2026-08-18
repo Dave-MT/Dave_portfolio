@@ -5,12 +5,12 @@ const CTA = () => {
     <section className="cta-section">
       <div className="container">
         <div className="cta-card card-base">
-          <h2 className="cta-title">Have a project in mind?</h2>
+          <h2 className="cta-title">Need a website or product built?</h2>
           <p className="cta-subtitle">
-            Let's bring your ideas to life! Reach out for freelance projects, collaboration, or full-time software engineering roles.
+            I’m available for freelance work, collaboration, and product design and development projects. Let’s talk about what you’re building.
           </p>
           <a href="#contact" className="btn btn-primary cta-btn">
-            Hire Me
+            Let’s talk
           </a>
         </div>
       </div>
