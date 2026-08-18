@@ -33,25 +33,6 @@ const Projects = () => {
               {/* Project Image Box */}
               <div className="project-image-container">
                 <img src={project.image} alt={project.title} className="project-img" />
-
-                {/* Special Overlay Banners matching visual design */}
-                {project.subtitle && !project.promoText && !project.category?.toLowerCase().includes('ux') && (
-                  <div className="special-overlay-banner health-banner">
-                    <span className="banner-tag">Healthcare App</span>
-                    <h4>{project.subtitle}</h4>
-                  </div>
-                )}
-
-                {project.promoText && (
-                  <div className="special-overlay-banner promo-banner">
-                    <div className="promo-text-wrap">
-                      <h3>Get your</h3>
-                      <h2>Special Sale</h2>
-                      <p>up to 40%</p>
-                      <button className="promo-btn">Shop Now</button>
-                    </div>
-                  </div>
-                )}
               </div>
 
               {/* Card Footer Info */}
