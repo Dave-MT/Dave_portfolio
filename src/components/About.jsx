@@ -27,7 +27,8 @@ const About = () => {
             <h3 className="profile-name">Dawit Tamirat</h3>
 
             <div className="status-badge">
-              <span>Open to opportunities</span>
+              <span className="status-dot"></span>
+              <span>Available for work</span>
             </div>
 
             {/* Social Icons Bar */}
@@ -51,10 +52,10 @@ const About = () => {
           {/* Right Column: Bio Details */}
           <div className="bio-card card-base">
             <h2 className="bio-greeting">
-              Hello, I’m Dawit Tamirat.
+              Hello, i'm Dawit Tamirat,
             </h2>
             <p className="bio-description">
-              I’m a Computer Science graduate from St. Mary University with a strong interest in UX/UI design and full-stack web development. I enjoy building clean, useful digital experiences and learning by creating work that solves real problems.
+              Computer Science Bachelor's Degree at St Mary University. Young junior who enjoys UX/UI design and Full Stack Web development, passionate about my work, disciplined, and successful.
             </p>
           </div>
         </div>
